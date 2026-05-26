@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        Name  <input type="text" placeholder="Your Name" required><br><br>
+        Emai id<input type="email" placeholder="College mail id" required>
+        <br><br>
+        Password<input type="password" required><br><br>
+        Phone Number<input type="number" required><br>
+        <br>
+        <label>Gender</label><br>
+        <input type="radio" name="gender">Female 
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Other
+        <br><br>
+        <label>Skills</label><br>
+        <input type="checkbox" name="skills">HTML
+        <input type="checkbox" name="skills">CSS
+        <input type="checkbox" name="skills">JavaScript
+    <br><br>
+    <label>Department</label>
+    <select>
+        <option>CSE</option>
+        <option>AI&DS</option>
+        <option>ECE</option>
+    </select>
+    <BR><br>
+     <label for="about">About Yourself:</label><br>
+
+<textarea id="about" name="about" rows="5" cols="30">
+</textarea>
+<br>
+<button>Sumbit</button>
+<button>Reset</button>
+    </form>
+</body>
+</html>
